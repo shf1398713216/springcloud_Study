@@ -8,13 +8,13 @@ server:
   port: 8001
 
 mybatis:
-  #mybatisºËĞÄÅäÖÃÎÄ¼şÎ»ÖÃ(ÎŞÌØÊâĞèÇó²»ÓÃÅä)
+  #mybatisæ ¸å¿ƒé…ç½®æ–‡ä»¶ä½ç½®(æ— ç‰¹æ®Šéœ€æ±‚ä¸ç”¨é…)
   # config-location: classpath:mybatis/mybatis-config.xml
-  #É¨Ãèmapper
+  #æ‰«æmapper
   mapper-locations: classpath:mybatis/mapper/*.xml
-  # É¨Ãèpojo
+  # æ‰«æpojo
   type-aliases-package: com.kuang.springcloud.pojo
-  #ÍÕ·åÃüÃû
+  #é©¼å³°å‘½å
   configuration:
     map-underscore-to-camel-case: true
 spring:
@@ -27,21 +27,21 @@ spring:
     url: jdbc:mysql://localhost:3306/springcloud?useUnicode=true&characterEncoding=utf-8
     username: root
     password: root
-#EurekaÅäÖÃ
+#Eurekaé…ç½®
 eureka:
   client:
     service-url:
-      #×¢²áµ½Õâ¸öµØÖ·
-      # µ¥»ú    defaultZone: http://localhost:7001/eureka/
-      #¼¯Èº
+      #æ³¨å†Œåˆ°è¿™ä¸ªåœ°å€
+      # å•æœº    defaultZone: http://localhost:7001/eureka/
+      #é›†ç¾¤
       defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
 
 
-  #ĞŞ¸ÄRurekaÄ¬ÈÏÃèÊöĞÅÏ¢(¿ÉÑ¡)
+  #ä¿®æ”¹Rurekaé»˜è®¤æè¿°ä¿¡æ¯(å¯é€‰)
   instance:
     instance-id: springcloud-provider-dep8001
 
-#µãÉÏÃæspringcloud-provider-dep8001Á´½Ó,³öÀ´µÄÃèÊöĞÅÏ¢(Ã»Ê²Ã´ÓÃ)
+#ç‚¹ä¸Šé¢springcloud-provider-dep8001é“¾æ¥,å‡ºæ¥çš„æè¿°ä¿¡æ¯(æ²¡ä»€ä¹ˆç”¨)
 info:
   app.name: wohaoshuai
   company: com.xiajiwangluo.shen
@@ -51,13 +51,13 @@ server:
   port: 8001
 
 mybatis:
-  #mybatisºËĞÄÅäÖÃÎÄ¼şÎ»ÖÃ(ÎŞÌØÊâĞèÇó²»ÓÃÅä)
+  #mybatisæ ¸å¿ƒé…ç½®æ–‡ä»¶ä½ç½®(æ— ç‰¹æ®Šéœ€æ±‚ä¸ç”¨é…)
   # config-location: classpath:mybatis/mybatis-config.xml
-  #É¨Ãèmapper
+  #æ‰«æmapper
   mapper-locations: classpath:mybatis/mapper/*.xml
-  # É¨Ãèpojo
+  # æ‰«æpojo
   type-aliases-package: com.kuang.springcloud.pojo
-  #ÍÕ·åÃüÃû
+  #é©¼å³°å‘½å
   configuration:
     map-underscore-to-camel-case: true
 spring:
@@ -70,22 +70,21 @@ spring:
     url: jdbc:mysql://localhost:3306/springcloud2?useUnicode=true&characterEncoding=utf-8
     username: root
     password: root
-#EurekaÅäÖÃ
+#Eurekaé…ç½®
 eureka:
   client:
     service-url:
-      #×¢²áµ½Õâ¸öµØÖ·
-      # µ¥»ú    defaultZone: http://localhost:7001/eureka/
-      #¼¯Èº
+      #æ³¨å†Œåˆ°è¿™ä¸ªåœ°å€
+      # å•æœº    defaultZone: http://localhost:7001/eureka/
+      #é›†ç¾¤
       defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
 
 
-  #ĞŞ¸ÄRurekaÄ¬ÈÏÃèÊöĞÅÏ¢(¿ÉÑ¡)
+  #ä¿®æ”¹Rurekaé»˜è®¤æè¿°ä¿¡æ¯(å¯é€‰)
   instance:
     instance-id: springcloud-provider-dep8001
 
-#µãÉÏÃæspringcloud-provider-dep8001Á´½Ó,³öÀ´µÄÃèÊöĞÅÏ¢(Ã»Ê²Ã´ÓÃ)
+#ç‚¹ä¸Šé¢springcloud-provider-dep8001é“¾æ¥,å‡ºæ¥çš„æè¿°ä¿¡æ¯(æ²¡ä»€ä¹ˆç”¨)
 info:
   app.name: wohaoshuai
   company: com.xiajiwangluo.shen
----
