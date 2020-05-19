@@ -34,7 +34,7 @@ eureka:
       #注册到这个地址
       # 单机    defaultZone: http://localhost:7001/eureka/
       #集群
-      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+      defaultZone: http://eureka7101.com:7101/eureka/,http://eureka7102.com:7102/eureka/,http://eureka7103.com:7103/eureka/
 
 
   #修改Rureka默认描述信息(可选)
@@ -77,7 +77,7 @@ eureka:
       #注册到这个地址
       # 单机    defaultZone: http://localhost:7001/eureka/
       #集群
-      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+      defaultZone: http://eureka7101.com:7101/eureka/,http://eureka7102.com:7102/eureka/,http://eureka7103.com:7103/eureka/
 
 
   #修改Rureka默认描述信息(可选)
