@@ -4,7 +4,7 @@ spring:
 
 ---
 server:
-  port: 7001
+  port: 7101
 
 spring:
   profiles: dev
@@ -16,7 +16,7 @@ spring:
 eureka:
   instance:
     #服务端实例名
-    hostname: eureka7001.com
+    hostname: eureka7101.com
   client:
     #是否向服务中心注册自己
     register-with-eureka: false
